@@ -20,7 +20,7 @@
 ## Detalhamento das Contribuições por Eixo
 
 ### 1. Eixo A: O Pulso da Gestão (MPS.BR - GPR)
-* **Responsável:** 
+* **Responsáveis: Rian P. e Arthur Soares** 
 * **O que fez:**
 * **Onde procurou as informações:**
 
