@@ -27,7 +27,7 @@
 ### 2. Eixo B: Anatomia do Código (SOLID & DRY)
 * **Responsável: Eduardo Ferreira** 
 * **O que fez: Conduziu o Teste de Stress Arquitetural para identificar dívidas técnicas. Diagnosticou violações críticas de Inversão de Dependência (DIP) no instanciamento de LLMs, quebra de Responsabilidade Única (SRP) na classe principal de busca (God Object), e repetição sistêmica de lógica (DRY) nos nós de geração. Com base nos achados, elaborou a proposta de refatoração aplicando padrões de projeto GoF (Factory, Strategy e Template Method).**
-* **Onde procurou as informações: Onde procurou as informações: A investigação foi feita diretamente no código-fonte do Scrapegraph-ai, rastreando o acoplamento e a coesão nos diretórios centrais de execução. As evidências foram extraídas especificamente das pastas scrapegraphai/graphs/ (com foco no abstract_graph.py) e scrapegraphai/nodes/ (inspecionando o fetch_node.py e os arquivos da família generate_answer).**
+* **Onde procurou as informações: A investigação foi feita diretamente no código-fonte do Scrapegraph-ai, rastreando o acoplamento e a coesão nos diretórios centrais de execução. As evidências foram extraídas especificamente das pastas scrapegraphai/graphs/ (com foco no abstract_graph.py) e scrapegraphai/nodes/ (inspecionando o fetch_node.py e os arquivos da família generate_answer).**
 
   
 ### 3. Eixo C: Padrões de Projeto (GoF)
