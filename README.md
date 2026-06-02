@@ -31,9 +31,9 @@
 
   
 ### 3. Eixo C: Padrões de Projeto (GoF)
-* **Responsáveis:**
-* **O que fez:** 
-* **Onde procurou as informações:**
+* **Responsáveis:** Ângelo Mutti e Iuri Mauricio
+* **O que fez:** Conduziu a análise dos padrões de projeto presentes nos arquivos estudados, identificando o uso predominante de Strategy na seleção de diferentes fluxos de execução, além de indícios de Composite composição de pipelines com blocos reutilizáveis. Também avaliou a presença parcial de Template Method nós de geração de resposta, apontando uma oportunidade de melhoria para reduzir duplicação e centralizar etapas comuns, como preparação de prompts, processamento em partes, chamada ao modelo e agregação dos resultados. A análise foi relacionada com os conceitos clássicos dos padrões GoF e comparada com as explicações do Refactoring Guru.
+* **Onde procurou as informações:**Grande parte da investigação foi feita nos arquivos smart_scraper_graph.py, search_graph.py, smart_scraper_multi_graph.py, smart_scraper_multi_concat_graph.py, search_link_graph.py, generate_answer_node.py, generate_answer_csv_node.py e generate_answer_omni_node.py. Esses arquivos foram analisados em conjunto com as referências conceituais do Refactoring Guru, usadas para comparar a estrutura encontrada com os padrões Strategy, Composite e Template Method.
 
 ### 4. Plano de Resgate Sugerido
 * **Responsável:** 
