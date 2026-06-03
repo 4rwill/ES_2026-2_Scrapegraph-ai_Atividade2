@@ -21,8 +21,8 @@
 
 ### 1. Eixo A: O Pulso da Gestão (MPS.BR - GPR)
 * **Responsáveis: Rian P. e Arthur Soares** 
-* **O que fez:**
-* **Onde procurou as informações:**
+* **O que fez:** Estruturou as diretrizes para o Eixo A de Gestão. Para isso, foi estabelecido um padrão de entrega obrigatório baseado no tripé "Evidência, Análise Crítica e Risco", aplicando-o práticos em três subitens fundamentais: o rastreamento do histórico de decisões arquiteturais complexas (Arqueologia de Issues), a investigação de falhas de acoplamento e limites rígidos ocultos no sistema (Gestão de Riscos Ocultos) e a avaliação do impacto da pressa e das automações sobre a qualidade das revisões e do suporte (Ritmo de Entrega e Code Review), finalizando com a elaboração de um roteiro de discurso para a apresentação dos resultados.
+* **Onde procurou as informações:** As evidências técnicas e comportamentais da equipe foram extraídas diretamente de discussões e registros específicos da plataforma, incluindo as abas de Issues e Milestones ,além do histórico de Pull Requests para auditar o uso de ferramentas de automação. Por fim, a contextualização teórica e os critérios de maturidade aplicados na análise crítica foram baseados nas normas e boas práticas de governança técnica do modelo MPS.BR (especialmente o Nível F - Garantia da Qualidade).
 
 ### 2. Eixo B: Anatomia do Código (SOLID & DRY)
 * **Responsável: Eduardo Ferreira e Artur José** 
